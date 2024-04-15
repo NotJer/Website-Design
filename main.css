@@ -1,4 +1,6 @@
+:root{
+  --bg-color:dimgray;
 h1{
   font-family: system-ui;
-  color: purple;
+  color: white;
 }
