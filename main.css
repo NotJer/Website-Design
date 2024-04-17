@@ -7,12 +7,13 @@ body{
 nav{
   text-align: center;
   text-decoration: none;
+  font-family: sans-serif;
 }
 h1{
-  font-family: system-ui;
+  font-family: sans-serif;
   color: red;
 }
 p{
-  font-family: system-ui;
+  font-family: sans-serif;
   color: white;
 }
