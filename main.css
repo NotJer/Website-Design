@@ -4,6 +4,10 @@
 body{ 
   background-color: var(--bg-color);
 }
+nav{
+  text-align: center;
+  text-decoration: none;
+}
 h1{
   font-family: system-ui;
   color: red;
