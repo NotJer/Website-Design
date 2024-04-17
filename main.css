@@ -1,5 +1,9 @@
 :root{
   --bg-color:dimgray;
+}
+body{ 
+  background-color: var(--bg-color);
+}
 h1{
   font-family: system-ui;
   color: red;
