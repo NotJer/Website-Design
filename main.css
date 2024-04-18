@@ -4,6 +4,10 @@
 body{ 
   background-color: var(--bg-color);
 }
+header{
+  text-align: center;
+  padding-top: 30px;
+}
 nav{
   text-align: center;
   text-decoration: none;
@@ -20,7 +24,7 @@ h1{
   font-family: sans-serif;
   color: red;
   text-align: center;
-  font-size: small;
+  font-size: medium;
 }
 p{
   font-family: sans-serif;
@@ -32,8 +36,7 @@ a:link{
 }
 a:hover{
   color: red;
-  font-family: system-ui;
 }
 a:visited{
-  text-decoration: none;
+  color: gray;
 }
