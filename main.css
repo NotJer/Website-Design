@@ -40,3 +40,10 @@ a:hover{
 a:visited{
   color: gray;
 }
+
+ol {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-size: medium;
+}
