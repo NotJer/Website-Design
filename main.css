@@ -68,3 +68,18 @@ table{
   padding-bottom: 2%;
   padding-top: 5%;
 }
+
+.cpsc3700{
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.cpsc4210{
+  display: block;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
