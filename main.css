@@ -1,65 +1,65 @@
-:root{
-  --bg-color:#282828;
+:root {
+  --bg-color: #282828;
 }
-body{ 
+body {
   background-color: var(--bg-color);
 }
-header{
+header {
   text-align: center;
   padding-top: 1%;
 }
-nav{
+nav {
   text-align: center;
   text-decoration: none;
   color: lightgray;
   font-family: sans-serif;
   font-size: medium;
 }
-li{
+li {
   display: inline;
   padding: 20px;
   font-family: system-ui;
 }
-h1{
+h1 {
   font-family: sans-serif;
   color: red;
   text-align: center;
   font-size: medium;
 }
-p{
+p {
   font-family: sans-serif;
   color: white;
 }
-a:link{
+a:link {
   color: white;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: red;
 }
-a:visited{
+a:visited {
   text-decoration: none;
   color: white;
 }
-a:visited:hover{
+a:visited:hover {
   color: red;
 }
-.tablecaption{
+.tablecaption {
   margin-left: 3%;
   color: white;
   font-family: system-ui;
 }
-caption{
+caption {
   text-align: left;
   font-size: x-large;
   font-weight: bold;
   color: white;
 }
-td{
+td {
   color: white;
   font-family: system-ui;
 }
-table{
+table {
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
@@ -69,17 +69,20 @@ table{
   padding-top: 5%;
 }
 
-.cpsc3700{
+.cpsc3700 {
   display: block;
   float: left;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-.cpsc4210{
+.cpsc4210 {
   display: block;
   float: right;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+h2 {
+  color: red;
 }
