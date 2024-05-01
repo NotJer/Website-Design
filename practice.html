@@ -1,1 +1,85 @@
-<p>Under construction</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SU CS</title>
+    <link rel="stylesheet" href="practice.css" type="text/css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Seattle_Redhawks_logo.svg/1200px-Seattle_Redhawks_logo.svg.png">
+</head>
+
+<body>
+    <header>
+        <a href="https://1chipp.github.io/project3700.github.io/index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Seattle_Redhawks_logo.svg/1200px-Seattle_Redhawks_logo.svg.png"
+              width="4%">
+            </a>
+            <h1>SU Computer Science Help Center</h1>
+            <nav>
+              <ul>
+                <li><a href="https://1chipp.github.io/project3700.github.io/index.html">Practice Problems</a></li>
+                <li><a href="https://1chipp.github.io/project3700.github.io/classes.html">Classes</a></li>
+                <li><a href="https://1chipp.github.io/project3700.github.io/index.html">Home</a></li>
+                <li><a href="https://www.seattleu.edu/scieng/computer-science/student-resources/" target="_blank">Student Resources</a></li>
+                <li><a href="https://www.seattleu.edu/about/contact/" target="_blank">Contact</a></li>
+              </ul>
+            </nav>
+    </header>
+
+    <main>
+        <nav id="sidenav">
+            <ul class="sidenav-nav">
+                <input type="text" id="search" placeholder="Search...">
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/practice.html">Data types</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">Control Structures</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">Loops</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">Functions</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">Arrays</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">I/O</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">Recursion</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">Algorithims</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+                <li class="nav-item"><a href="https://1chipp.github.io/project3700.github.io/index.html">More to come</a></li>
+        </nav>
+
+        <article id="practice-area">
+          <nav class="language-panel">
+            Language:
+            <select id="language-options" class="language-options" onchange="changeLanguage()">
+              <option value="py"> Python </option> 
+              <option value="cpp"> C++ </option>
+            </select>
+          </nav>
+          
+          <div class="editor" id="editor">print("Hello World")</div>
+      
+          <div id="run-button">
+              <button class="btn" onclick="executeCode(event)"> Run </button>
+          </div>
+      
+          <div class="output"></div>
+        </article>
+
+        <aside class="question-area">
+          <h1 id="question-header">Question 1</h1>
+          <p id="question">Create a function which outputs "Hello World" to the console </p>
+          
+          <div id="check-button">
+            <button class="btn" onclick="checkQuestion()">Check</button>
+           </div>
+
+           <div id="next-question-button">
+            <button class="btn" onclick="nextQuestion()">Next</button>
+           </div>
+
+        </aside>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ace.js"></script>
+    <script src="practice.js"></script>
+</body>
+</html>
