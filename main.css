@@ -109,3 +109,94 @@ h2 {
   font-size: large;
   font-weight: bold;
 }
+.carousel-inner > .carousel-item {
+  height: 400px;
+}
+.navbar-nav a:hover{
+  text-decoration: none;
+  color: red;
+}
+.navbar-nav a:focus{
+  text-decoration: none;
+  color: red;
+}
+.navbar-nav a:visited{
+  text-decoration: none;
+  color: white;
+}
+.navbar-nav a:visited:hover{
+  text-decoration: none;
+  color: red;
+}
+.nav-link{
+  margin-left: 20px;
+}
+.card-text{
+  font-family: system-ui;
+  color: white;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+  background-color: #5555;
+  transition: 0.3s;
+  object-fit: cover;
+}
+#homeh2{
+  color: white;
+  font-family: system-ui;
+}
+main h2{
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  display: block;
+}
+#form{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -10%);
+}
+.thankyou{
+  font-size: xx-large;
+  padding-top: 8%;
+  text-align: center;
+}
+.thankyou a:link{
+  color: dimgray;
+  font-size: large;
+}
+.thankyou a{
+  color: dimgray;
+  text-decoration: none;
+}
+.thankyou a:hover{
+  color: dimgray;
+  text-decoration: underline;
+}
+#submit{
+  color: dimgray;
+  text-decoration: none;
+  font-family: system-ui;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+article{
+  font-family: system-ui;
+  color: dimgray;
+  font-size: large;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  padding-top: 2%;
+  text-align: center;
+  transform: translate(-50%, -10%);
+}
+main{
+  margin-top: 5%;
+}
