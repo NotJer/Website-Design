@@ -199,3 +199,14 @@ article{
 main{
   margin-top: 5%;
 }
+#current{
+  color: red;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.contacttext{
+  color: red;
+}
