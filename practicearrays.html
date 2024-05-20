@@ -8,7 +8,6 @@
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Seattle_Redhawks_logo.svg/1200px-Seattle_Redhawks_logo.svg.png">
 </head>
 
-
     <header>
       <nav class="navbar navbar-expand-lg" style="background-color: #282828;">
         <div class="container-fluid">
@@ -32,16 +31,16 @@
     <main>
       <nav id="sidenav">
         <ul class="sidenav-nav">
-            <li class="nav-item"><a href="practice.html">Data types</a></li>
-            <li class="nav-item"><a href="practiceControlStructures.html">Control Structures</a></li>
-            <li class="nav-item"><a href="practiceLoops.html">Loops</a></li>
-            <li class="nav-item"><a href="practiceFunctions.html">Functions</a></li>
-            <li class="nav-item"><a href="practiceArrays.html">Arrays</a></li>
-            <li class="nav-item"><a href="practiceIO.html">I/O</a></li>
-            <li class="nav-item"><a href="practiceRecursion.html">Recursion</a></li>
-            <li class="nav-item"><a href="practiceAlgorithims.html">Algorithims</a></li>
+          <li class="nav-item"><a href="practice.html">Data types</a></li>
+          <li class="nav-item"><a href="practicecontrolstructures.html">Control Structures</a></li>
+          <li class="nav-item"><a href="practiceloops.html">Loops</a></li>
+          <li class="nav-item"><a href="practicefunctions.html">Functions</a></li>
+          <li class="nav-item"><a href="practicearrays.html">Arrays</a></li>
+          <li class="nav-item"><a href="practiceio.html">I/O</a></li>
+          <li class="nav-item"><a href="practicerecursion.html">Recursion</a></li>
+          <li class="nav-item"><a href="practicealgorithims.html">Algorithims</a></li>
           </ul>
-    </nav>
+      </nav>
         <body>
           <article id="practice-area">
             <nav class="languages">
@@ -58,26 +57,60 @@
                 <button class="btn" onclick="executeCode(event)"> Run </button>
             </div>
         
-            <div class="output">Hello World</div>
+            <div class="output"></div>
           </article>
 
           <aside class="question-area">
-            <div class="expected-output" style="display: none;">Hello World</div>
+            <div class="expected-output" style="display: none;">b</div>
             <div>
               <span class="questionResult">&nbsp;</span>
               <span class="questionHeader">Question 1</span>
             </div>            
-            <p class="question">Print 'Hello World' to the consle</p>
+            <p class="question">Initialize an array named 'myArr' to contain ['a', 'b', 'c']. Print myArr value at index 1</p>
             <div class="checkQuestion">
               <button class="btn" onclick="checkOutput()">Check</button>
             </div>
 
             <div class="nextQuestion">
-              <button class="btn" onclick="nextQuestion(questions4)">Next</button>            </div>
+              <button class="btn" onclick="nextQuestion(questions6)">Next</button>            
+            </div>
           </aside>
-
+        </body>
       </main>
-  </body>
+      <aside>
+        <div class="bottomMenuHeader">
+          <p>Recommended Videos</p>
+        </div>
+        <div class="bottomMenu">
+          <div>
+            <a href="https://www.youtube.com/watch?v=eXFItikqw8c" target="_blank">
+              <img src="https://img.youtube.com/vi/eXFItikqw8c/sddefault.jpg" alt="Introduction to Arrays">
+              <p>Introduction to Arrays</p>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v=G38hQKXa_RU" target="_blank">
+              <img src="https://img.youtube.com/vi/G38hQKXa_RU/sddefault.jpg" alt="C++ Tutorial: Arrays">
+              <p>C++ Tutorial: Arrays</p>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v=7W4pQQ20nJg" target="_blank">
+              <img src="https://img.youtube.com/vi/7W4pQQ20nJg/sddefault.jpg" alt="JavaScript Arrays Crash Course">
+              <p>JavaScript Arrays Crash Course</p>
+            </a>
+          </div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=1FVBeLD_FdE" target="_blank">
+                <img src="https://img.youtube.com/vi/1FVBeLD_FdE/sddefault.jpg" alt="C++ Arrays: Learn C++ With Me #9 - Arrays">
+                <p>C++ Arrays: Learn C++ With Me #9 - Arrays</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      
+      
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ace.js"></script>
   <script src="practice.js"></script>
 </html>
