@@ -8,7 +8,6 @@
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Seattle_Redhawks_logo.svg/1200px-Seattle_Redhawks_logo.svg.png">
 </head>
 
-
     <header>
       <nav class="navbar navbar-expand-lg" style="background-color: #282828;">
         <div class="container-fluid">
@@ -32,14 +31,14 @@
     <main>
       <nav id="sidenav">
         <ul class="sidenav-nav">
-            <li class="nav-item"><a href="practice.html">Data types</a></li>
-            <li class="nav-item"><a href="practiceControlStructures.html">Control Structures</a></li>
-            <li class="nav-item"><a href="practiceLoops.html">Loops</a></li>
-            <li class="nav-item"><a href="practiceFunctions.html">Functions</a></li>
-            <li class="nav-item"><a href="practiceArrays.html">Arrays</a></li>
-            <li class="nav-item"><a href="practiceIO.html">I/O</a></li>
-            <li class="nav-item"><a href="practiceRecursion.html">Recursion</a></li>
-            <li class="nav-item"><a href="practiceAlgorithims.html">Algorithims</a></li>
+          <li class="nav-item"><a href="practice.html">Data types</a></li>
+          <li class="nav-item"><a href="practicecontrolstructures.html">Control Structures</a></li>
+          <li class="nav-item"><a href="practiceloops.html">Loops</a></li>
+          <li class="nav-item"><a href="practicefunctions.html">Functions</a></li>
+          <li class="nav-item"><a href="practicearrays.html">Arrays</a></li>
+          <li class="nav-item"><a href="practiceio.html">I/O</a></li>
+          <li class="nav-item"><a href="practicerecursion.html">Recursion</a></li>
+          <li class="nav-item"><a href="practicealgorithims.html">Algorithims</a></li>
           </ul>
       </nav>
         <body>
@@ -58,26 +57,54 @@
                 <button class="btn" onclick="executeCode(event)"> Run </button>
             </div>
         
-            <div class="output">Hello World</div>
+            <div class="output"></div>
           </article>
 
           <aside class="question-area">
-            <div class="expected-output" style="display: none;">Hello World</div>
+            <div class="expected-output" style="display: none;">6</div>
             <div>
               <span class="questionResult">&nbsp;</span>
               <span class="questionHeader">Question 1</span>
             </div>            
-            <p class="question">Print 'Hello World' to the consle</p>
+            <p class="question">Initialize a function named 'add' to add two numbers. Print the result of add(1,5)</p>
             <div class="checkQuestion">
               <button class="btn" onclick="checkOutput()">Check</button>
             </div>
 
             <div class="nextQuestion">
-              <button class="btn" onclick="nextQuestion(questions3)">Next</button>            </div>
+              <button class="btn" onclick="nextQuestion(questions6)">Next</button>            
+            </div>
           </aside>
-
+        </body>
       </main>
-  </body>
+      <aside>
+        <div class="bottomMenuHeader">
+          <p>Recommended Videos</p>
+        </div>
+        <div class="bottomMenu">
+          <div>
+            <a href="https://www.youtube.com/watch?v=pB0WvcxTbCA" target="_blank">
+              <img src="https://img.youtube.com/vi/pB0WvcxTbCA/sddefault.jpg" alt="Introduction to Functions">
+              <p>Introduction to Functions</p>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v=1nfuYMXjZsA" target="_blank">
+              <img src="https://img.youtube.com/vi/1nfuYMXjZsA/sddefault.jpg" alt="C++ Functions Explained">
+              <p>C++ Functions Explained</p>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v=9Os0o3wzS_I" target="_blank">
+              <img src="https://img.youtube.com/vi/9Os0o3wzS_I/sddefault.jpg" alt="Python Functions for Beginners">
+              <p>Python Functions for Beginners</p>
+            </a>
+          </div>
+        </div>
+      </aside>
+      
+      
+      
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ace.js"></script>
   <script src="practice.js"></script>
 </html>
