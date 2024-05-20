@@ -32,16 +32,16 @@
     <main>
       <nav id="sidenav">
         <ul class="sidenav-nav">
-            <li class="nav-item"><a href="practice.html">Data types</a></li>
-            <li class="nav-item"><a href="practiceControlStructures.html">Control Structures</a></li>
-            <li class="nav-item"><a href="practiceLoops.html">Loops</a></li>
-            <li class="nav-item"><a href="practiceFunctions.html">Functions</a></li>
-            <li class="nav-item"><a href="practiceArrays.html">Arrays</a></li>
-            <li class="nav-item"><a href="practiceIO.html">I/O</a></li>
-            <li class="nav-item"><a href="practiceRecursion.html">Recursion</a></li>
-            <li class="nav-item"><a href="practiceAlgorithims.html">Algorithims</a></li>
+          <li class="nav-item"><a href="practice.html">Data types</a></li>
+          <li class="nav-item"><a href="practicecontrolstructures.html">Control Structures</a></li>
+          <li class="nav-item"><a href="practiceloops.html">Loops</a></li>
+          <li class="nav-item"><a href="practicefunctions.html">Functions</a></li>
+          <li class="nav-item"><a href="practicearrays.html">Arrays</a></li>
+          <li class="nav-item"><a href="practiceio.html">I/O</a></li>
+          <li class="nav-item"><a href="practicerecursion.html">Recursion</a></li>
+          <li class="nav-item"><a href="practicealgorithims.html">Algorithims</a></li>
           </ul>
-  `   </nav>
+     </nav>
         <body>
           <article id="practice-area">
             <nav class="languages">
@@ -58,26 +58,62 @@
                 <button class="btn" onclick="executeCode(event)"> Run </button>
             </div>
         
-            <div class="output">Hello World</div>
+            <div class="output"></div>
           </article>
 
           <aside class="question-area">
-            <div class="expected-output" style="display: none;">Hello World</div>
+            <div class="expected-output" style="display: none;">
+              Hello World
+              Hello World
+              Hello World
+            </div>
             <div>
               <span class="questionResult">&nbsp;</span>
               <span class="questionHeader">Question 1</span>
             </div>            
-            <p class="question">Print 'Hello World' to the consle</p>
+            <p class="question">Print 'Hello World' 3 times to the consle using a loop</p>
             <div class="checkQuestion">
               <button class="btn" onclick="checkOutput()">Check</button>
             </div>
 
             <div class="nextQuestion">
-              <button class="btn" onclick="nextQuestion(questions4)">Next</button>            </div>
+              <button class="btn" onclick="nextQuestion(questions4)">Next</button>            
+            </div>
           </aside>
-
       </main>
   </body>
+  <aside>
+    <div class="bottomMenuHeader">
+      <p>Recommended Videos</p>
+    </div>
+    <div class="bottomMenu">
+      <div>
+        <a href="https://www.youtube.com/watch?v=wxds6MAtUQ0" target="_blank">
+          <img src="https://img.youtube.com/vi/wxds6MAtUQ0/sddefault.jpg" alt="What are data-types?">
+          <p>What are data-types?</p>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=Kn06785pkJg" target="_blank">
+          <img src="https://img.youtube.com/vi/Kn06785pkJg/sddefault.jpg" alt="Learn Programming: What are Loops?">
+          <p>Learn Programming: What are Loops?</p>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=6iF8Xb7Z3wQ" target="_blank">
+          <img src="https://img.youtube.com/vi/6iF8Xb7Z3wQ/sddefault.jpg" alt="Python Tutorial for Beginners 7: Loops and Iterations - For/While Loops">
+          <p>Python Tutorial for Beginners 7: Loops and Iterations - For/While Loops</p>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=s9wW2PpJsmQ" target="_blank">
+          <img src="https://img.youtube.com/vi/s9wW2PpJsmQ/sddefault.jpg" alt="JavaScript Loops Made Easy">
+          <p>JavaScript Loops Made Easy</p>
+        </a>
+      </div>
+    </div>
+  </aside>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ace.js"></script>
   <script src="practice.js"></script>
 </html>
