@@ -17,7 +17,7 @@ function executeCode(event) {
     event.preventDefault();
     //send code to server
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://bb7d-66-194-72-52.ngrok-free.app/practice.php", true);
+    xhr.open("POST", "https://2309-66-194-72-52.ngrok-free.app/practice.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
@@ -43,8 +43,7 @@ let questions1 = [
 
 let questions2 = [
     { questionHeader: "Question 2", question: "Print 'Greater' if the integer variable 9 is greater than 5, otherwise print 'Lesser'.", answer: "Greater"},
-    { questionHeader: "Question 3", question: "Print 'Three' using a switch statement on an integer variable y initialized to 3.", answer: "Three"},
-];
+    { questionHeader: "Question 3", question: "Print 'Even' if the integer variable 4 is even, otherwise print 'Odd'.", answer: "Even"},];
 
 let questions3 = [
     { questionHeader: "Question 2", question: "Print numbers from 0 to 2 using a for loop.", answer: "0\n1\n2"},
@@ -57,16 +56,21 @@ let questions4 = [
 ];
 
 let questions5 = [
+    { questionHeader: "Question 2", question: "Print the elements of an integer array initialized as {1, 2, 3, 4, 5}.", answer: "1\n2\n3\n4\n5"},
+    { questionHeader: "Question 3", question: "Print the sum of the elements in an integer array initialized as {1, 2, 3, 4, 5}.", answer: "15"},
+];
+
+let questions6 = [
     { questionHeader: "Question 2", question: "Print 'Hello Alice' assuming the user inputs 'Alice'.", answer: "Hello Alice"},
     { questionHeader: "Question 3", question: "Print 'You entered: 5' assuming the user inputs 5.", answer: "You entered: 5"},
 ];
 
-let questions6 = [
+let questions7 = [
     { questionHeader: "Question 2", question: "Print the factorial of 3 using a recursive function.", answer: "6"},
     { questionHeader: "Question 3", question: "Print the 4th Fibonacci number using a recursive function.", answer: "3"},
 ];
 
-let questions7 = [,
+let questions8 = [,
     { questionHeader: "Question 2", question: "Print the index of 4 in the array [1, 2, 3, 4, 5] using binary search.", answer: "3"}
 ];
 
@@ -118,5 +122,6 @@ function checkOutput() {
         questionResult.textContent = '✗';
         questionResult.style.color = 'red';
         checkQuestionButton.style.backgroundColor = 'red';
+        nextButton.style.display = 'block';
     }
 }
