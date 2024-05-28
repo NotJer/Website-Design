@@ -17,7 +17,7 @@ function executeCode(event) {
     event.preventDefault();
     //send code to server
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://cspracticepagesq24.000webhostapp.com/", true);
+    xhr.open("POST", "https://2309-66-194-72-52.ngrok-free.app/practice.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
@@ -34,6 +34,7 @@ function executeCode(event) {
     xhr.send("language=" + document.getElementById("language-options").value + "&code=" + editor.getSession().getValue());
 }
 
+
 //Questions
 let questions1 = [
     { questionHeader: "Question 2", question: "Print the value of an integer variable initialized to 5.", answer: "5"},
@@ -41,7 +42,7 @@ let questions1 = [
 ];
 
 let questions2 = [
-    { questionHeader: "Question 2", question: "Print 'Greater' if the integer variable x is greater than 5, otherwise print 'Lesser'.", answer: "Greater"},
+    { questionHeader: "Question 2", question: "Print 'Greater' if the integer variable 9 is greater than 5, otherwise print 'Lesser'.", answer: "Greater"},
     { questionHeader: "Question 3", question: "Print 'Three' using a switch statement on an integer variable y initialized to 3.", answer: "Three"},
 ];
 
@@ -65,9 +66,8 @@ let questions6 = [
     { questionHeader: "Question 3", question: "Print the 4th Fibonacci number using a recursive function.", answer: "3"},
 ];
 
-let questions7 = [
-    { questionHeader: "Question 2", question: "Sort the array [3, 2, 1] using bubble sort and print the sorted array.", answer: "1 2 3"},
-    { questionHeader: "Question 3", question: "Print the index of 4 in the array [1, 2, 3, 4, 5] using binary search.", answer: "3"},
+let questions7 = [,
+    { questionHeader: "Question 2", question: "Print the index of 4 in the array [1, 2, 3, 4, 5] using binary search.", answer: "3"}
 ];
 
 
