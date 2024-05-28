@@ -201,7 +201,7 @@
   }
 
   .question-area{
-    height: 40vh;
+    height: fit-content;
     width: 15vw;
     border-radius: 10px;
     background-color: rgb(22, 22, 22);
@@ -319,3 +319,9 @@
   }
   
 
+.soleIdChoice{
+  border: 1px solid #ccc;
+  padding: 0.1vh;
+  background-color: #f8f8f8;
+  color: black;
+}
