@@ -17,7 +17,7 @@ function executeCode(event) {
     event.preventDefault();
     //send code to server
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://4c52-66-194-72-52.ngrok-free.app/practice.php", true);
+    xhr.open("POST", "https://bb7d-66-194-72-52.ngrok-free.app/practice.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
