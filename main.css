@@ -233,3 +233,8 @@ main{
 .homepage{
   margin-bottom: 3%;
 }
+
+.Larger{
+  color: red;
+  font-size: larger;
+}
