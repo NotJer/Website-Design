@@ -122,6 +122,5 @@ function checkOutput() {
         questionResult.textContent = '✗';
         questionResult.style.color = 'red';
         checkQuestionButton.style.backgroundColor = 'red';
-        nextButton.style.display = 'block';
     }
 }
