@@ -17,7 +17,7 @@ function executeCode(event) {
     event.preventDefault();
     //send code to server
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://38d5-2605-ad80-60-5f-10bd-73b4-4645-153d.ngrok-free.app/practice.php", true);
+    xhr.open("POST", "https://2309-66-194-72-52.ngrok-free.app/practice.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
@@ -38,8 +38,7 @@ function executeCode(event) {
 //Questions
 let questions1 = [
     { questionHeader: "Question 2", question: "Print the value of an integer variable initialized to 5.", answer: "5"},
-    { questionHeader: "Question 3", question: "Print the type of a string variable initialized to 'hello'.", answer: "NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
-"},
+    { questionHeader: "Question 3", question: "Print the type of a string variable initialized to 'hello'.", answer: "NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"},
 ];
 
 let questions2 = [
