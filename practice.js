@@ -38,7 +38,8 @@ function executeCode(event) {
 //Questions
 let questions1 = [
     { questionHeader: "Question 2", question: "Print the value of an integer variable initialized to 5.", answer: "5"},
-    { questionHeader: "Question 3", question: "Print the type of a string variable initialized to 'hello'.", answer: "NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"},
+    { questionHeader: "Question 3", question: "Print the type of a string variable initialized to 'hello'.", answer: "NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+"},
 ];
 
 let questions2 = [
