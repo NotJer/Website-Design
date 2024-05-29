@@ -239,7 +239,7 @@ main{
   font-size: larger;
 }
 
-#myDIV {
+.myClass {
     width: 100%;
     padding: 50px 0;
     text-align: center;
