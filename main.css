@@ -238,3 +238,11 @@ main{
   color: red;
   font-size: larger;
 }
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
