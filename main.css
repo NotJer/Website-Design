@@ -241,7 +241,7 @@ main{
 
 .myClass {
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 50px;
     text-align: left;
     background-color: lightblue;
     margin-top: 20px;
