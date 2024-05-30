@@ -107,33 +107,51 @@
       </section>
       <section>
         <h2>Methods of Proof</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('okDefinition')">Definition</button>
+        <div id="okDefinition" class="myClass">
+          <strong>Direct Proof</strong><br>
+          In a direct proof, you start with the given assumptions or premises and use logical deduction to arrive at the conclusion. You build a logical chain of reasoning from the given information to the desired result.<br>
+          <strong>Example</strong><br>
+          To prove that the sum of two even integers is even:<br>
+          Assume a and b are even integers.<br>
+          By definition, an even integer can be expressed as 2k where k is an integer.<br>
+          So, a = 2m and b = 2n for some integers m and n.<br>
+          Then, a + b = 2m + 2n = 2(m + n), which is also an even integer.<br><br>
+
+          <strong>Proof by Contradiction</strong><br>
+          Also known as reductio ad absurdum, proof by contradiction assumes the negation of what we want to prove and then shows that this assumption leads to a contradiction. If the assumption leads to a contradiction, then the original statement must be true.<br>
+          <strong>Example</strong><br>
+          To prove that the square root of 2 is irrational:<br>
+          Assume, for contradiction, that sqr(2) is rational.<br>
+          Then, sqr(2) = p/q, where p and q are coprime integers.<br>
+          Squaring both sides, 2 = p^2/q^2.<br>
+          So. p^2 = 2q^2, which implies that p^2 is even<br>
+          Since the square of an integer is even if and only if the integer is even, p must be even.<br>
+          If p is even, then p^2 is divisible by 4.<br>
+          This implies that q^2 is divisible by 2.<br>
+          If q^2 is divisible by 2, then q must be even.<br>
+          But if both p and q are even, they are not coprime, which contradicts our assumption.<br>
+          Therefore, sqr(2) cannot be rational.
+        </div>
       </section>
       <section>
         <h2>Recurrence Relations</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('rrDefinition')">Definition</button>
+        <div id="rrDefinition" class="myClass">
+          A recurrence relation is a mathematical relationship or equation that defines a sequence recursively in terms of its previous terms. It is a way of describing a sequence of numbers where each term depends on one or more preceding terms.<br><br>
+          Recurrence relations are commonly used in various areas of mathematics, computer science, and engineering to model processes that evolve over time or to solve problems involving repeated calculations.
+        </div>
       </section>
       <section>
         <h2>Sets</h2>
-        <p>
-          Description
-        </p>
-      </section>
-      <section>
-        <h2>Induction</h2>
-        <p>
-          Description
-        </p>
-      </section>
-      <section>
-        <h2>Graphs</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('sDefinition')">Definition</button>
+        <div id="sDefinition" class="myClass">
+          In discrete mathematics, a set is a fundamental concept used to represent a collection of distinct objects or elements. Sets are used to describe and analyze mathematical structures, relationships, and operations.<br><br>
+          <strong>Set Operations:</strong><br>
+          Unions: The union of two sets A and B is the set of all elements that are in A or B, or both.<br>
+          Intersection: The intersection of two sets A and B is the set of all elements that are in both A and B.<br>
+          Difference: The difference of two sets A and B is the set of all elements that are in A but not in B, or vice versa.<br>
+        </div>
       </section>
       <section class=>
         <h2 class="text-center my-5" id="homeh2">Helpful Resources</h2>
@@ -154,6 +172,7 @@
       </section>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       <script src="scroll.js"></script>
+      <script src="display.js"></script>
     </body>
   </html>
 </html>
