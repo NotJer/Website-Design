@@ -106,33 +106,88 @@
       </section>
       <section>
         <h2>Big-O Notation</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('boDefinition')">Definition</button>
+        <div id="boDefinition" class="myClass">
+          Big O notation is a mathematical notation used to describe the upper bound of an algorithm's running time or space complexity in terms of the input size.<br>
+          It provides an asymptotic analysis, focusing on the behavior of the algorithm as the input size grows towards infinity.<br><br>
+          This notation helps in comparing the efficiency of different algorithms by providing a high-level understanding of their performance characteristics.<br><br>
+          O(1): Constant time. The running time or space required does not change with the size of the input. Example: Accessing an element in an array by index.<br><br>
+          O(log n): Logarithmic time. The running time grows logarithmically with the input size. Example: Binary search in a sorted array.<br><br>
+          O(n): Linear time. The running time grows linearly with the input size. Example: Iterating through an array.<br><br>
+          O(n log n): Linearithmic time. The running time grows linearly with a logarithmic factor. Example: Efficient sorting algorithms like mergesort and heapsort.<br><br>
+          O(n^2): Quadratic time. The running time grows quadratically with the input size. Example: Simple sorting algorithms like bubble sort, selection sort, and insertion sort.<br><br>
+          O(2^n): Exponential time. The running time grows exponentially with the input size. Example: Solving the Traveling Salesman Problem using a brute-force approach.<br><br>
+          O(n!): Factorial time. The running time grows factorially with the input size. Example: Generating all permutations of a set.
+        </div>
+        <button onclick="myFunction('boExamples')">Importance</button>
+        <div id="boExamples" class="myClass">
+          Predict Performance: It helps in predicting the performance of an algorithm as the input size grows.<br><br>
+          Compare Algorithms: It provides a standard way to compare the efficiency of different algorithms.<br><br>
+          Identify Bottlenecks: It helps in identifying parts of an algorithm that could be optimized for better performance.<br><br>
+          Scalability: It gives an understanding of how well an algorithm scales with larger datasets.<br><br>
+        </div>
       </section>
       <section>
         <h2>Recursion</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('recDefinition')">Definition</button>
+        <div id="recDefinition" class="myClass">
+          Recursion in computer science, including data structures, refers to a process where a function calls itself in order to solve a smaller instance of the same problem.<br><br>
+          In the context of data structures, recursion often involves algorithms that traverse or manipulate recursive data structures, such as trees and graphs.<br><br>
+          <strong>Characteristics of Recursive Functions</strong><br>
+          Base Case: A condition that stops the recursion by providing an exit point. Without a base case, the recursion would continue indefinitely, leading to a stack overflow.<br>
+          Recursive Case: The part of the function that makes the recursive call to solve a smaller instance of the problem. This typically involves breaking down the problem into smaller subproblems.<br>
+          Call Stack: Recursion uses the call stack to keep track of function calls. Each recursive call adds a new frame to the call stack, and when the base case is reached, the stack unwinds, and the function returns control back to the caller.
+        </div>
+        <button onclick="myFunction('recExamples')">Example</button>
+        <div id="recExamples" class="myClass">
+          A common example of recursion in data structures is tree traversal, where a function visits each node of a tree in a specific order. There are three primary methods of tree traversal: in-order, pre-order, and post-order.<br>
+        </div>
       </section>
       <section>
         <h2>Binary Search Trees</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('bstDefinition')">Definition</button>
+        <div id="recDefinition" class="myClass">
+          A binary search tree (BST) is a binary tree data structure where each node has at most two children (left and right), and the key (value) of each node is greater than all keys in its left subtree and less than all keys in its right subtree.<br><br> 
+          This ordering property allows for efficient searching, insertion, and deletion operations, making binary search trees a fundamental data structure in computer science.<br><br>
+          <strong>Characteristics of Binary Search Trees</strong><br>
+          Binary Tree Structure: Each node in a BST has at most two children: a left child and a right child.<br>
+          Ordering Property: The key of each node is greater than all keys in its left subtree and less than all keys in its right subtree.<br>
+          This property ensures that the tree remains ordered, facilitating efficient searching operations.<br><br>
+          <strong>Operations on Binary Search Trees</strong><br>
+          Search: Find a given key in the binary search tree.<br>
+          Insertion: Add a new key to the binary search tree while maintaining the binary search tree properties.<br>
+          Deletion: Remove a key from the binary search tree while preserving the binary search tree properties.<br>
+          Traversal: Visit all nodes of the binary search tree in a specific order. Common traversal methods include in-order, pre-order, and post-order traversals.
+        </div>
+        <button onclick="myFunction('bstExamples')">Example</button>
+        <div id="recExamples" class="myClass">
+          In this BST, if we use a 1-based indexing scheme and store the nodes in an array, it would look like this:<br>
+          [10, 5, 20, 3, 8, 15, 25]<br>
+          Here, the root node (10) is stored at index 0, its left child (5) at index 1, its right child (20) at index 2, and so on.
+        </div>
       </section>
       <section>
         <h2>Priority Queues</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('qDefinition')">Definition</button>
+        <div id="qDefinition" class="myClass">
+          A priority queue is an abstract data type that operates similar to a regular queue or stack, but with an additional priority associated with each element.<br><br>
+          In a priority queue, elements are stored based on their priority, and elements with higher priority are dequeued before elements with lower priority.
+        </div>
+        <button onclick="myFunction('qExamples')">Example</button>
+        <div id="qExamples" class="myClass">
+          Shortest Path Algorithms: Used in Dijkstra's algorithm to find the shortest path in a graph.<br><br>
+          Scheduling Algorithms: Used in job scheduling to process tasks based on priority.<br><br>
+          Huffman Coding: Used in data compression algorithms to encode characters based on their frequency of occurrence.<br><br>
+          Event-driven Simulation: Used in discrete event simulation to schedule and process events based on their occurrence time.
+        </div>
       </section>
       <section>
         <h2>Hash Tables</h2>
-        <p>
-          Description
-        </p>
+        <button onclick="myFunction('Definition')">Definition</button>
+        <div id="Definition" class="myClass">
+          A hash table is a data structure that stores key-value pairs, allowing for efficient insertion, deletion, and retrieval of elements based on their keys.<br><br>
+          Hash tables use a hash function to compute an index (also known as a hash code) into an array of buckets or slots, where each bucket may contain one or more key-value pairs.
+        </div>
       </section>
       <section class=>
         <h2 class="text-center my-5" id="homeh2">Helpful Resources</h2>
@@ -153,6 +208,7 @@
       </section>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       <script src="scroll.js"></script>
+      <script src="display.js"></script>
     </body>
   </html>
 </html>
