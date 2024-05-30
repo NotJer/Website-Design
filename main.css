@@ -242,7 +242,7 @@ main{
 .myClass {
     width: 100%;
     padding: 50px 0;
-    text-align: center;
+    text-align: left;
     background-color: lightblue;
     margin-top: 20px;
 }
