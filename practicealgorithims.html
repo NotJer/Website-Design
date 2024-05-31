@@ -46,9 +46,10 @@
           <article id="practice-area">
             <nav class="languages">
               Language:
-              <span class="soleIdChoice">C++</span>
+                <select id="language-options" class="language-options" onchange="changeLanguage()">
+                    <option value="cpp"> C++ </option>
+                </select>
             </nav>
-            
             <div class="editor" id="editor"></div>
         
             <div id="run-button">
