@@ -17,7 +17,7 @@ function executeCode(event) {
     event.preventDefault();
     //send code to server
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://babf-66-194-72-55.ngrok-free.app/practice.php", true);
+    xhr.open("POST", "https://b13b-66-194-72-55.ngrok-free.app/practice.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
@@ -55,8 +55,7 @@ let questions4 = [
 ];
 
 let questions5 = [
-    { questionHeader: "Question 2", question: "Print the elements of an integer array initialized as {1, 2, 3, 4, 5}.", answer: "1\n2\n3\n4\n5"},
-    { questionHeader: "Question 3", question: "Print the sum of the elements in an integer array initialized as {1, 2, 3, 4, 5}.", answer: "15"},
+    { questionHeader: "Question 2", question: "Print the sum of the elements in an integer array initialized as {1, 2, 3, 4, 5}.", answer: "15"},
 ];
 
 let questions6 = [
