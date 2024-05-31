@@ -325,3 +325,11 @@
   background-color: #f8f8f8;
   color: black;
 }
+footer{
+  text-align: center;
+  background-color: #5555;
+  margin-top: 3%;
+  height: 80px;
+  color: white;
+  padding: 2em;
+}
