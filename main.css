@@ -154,11 +154,10 @@ main h2{
   display: block;
 }
 #form{
-  position: absolute;
-  top: 30%;
-  left: 50%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
   text-align: center;
-  transform: translate(-50%, -10%);
 }
 .thankyou{
   font-size: xx-large;
@@ -250,4 +249,8 @@ footer{
   height: 80px;
   color: white;
   padding: 2em;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
 }
