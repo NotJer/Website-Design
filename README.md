@@ -2,7 +2,7 @@
 
 # Educational Seattle University - Computer Science Website
 
-The website we decided to create is an educational platform containing helpful links and articles for computer science classes. The idea is similar to GeeksForGeeks but specifically geared towards computer science students who struggle to grasp common theory.
+The website was created by myself and three others. We decided to create an educational platform containing helpful links and articles for computer science classes. The idea is similar to GeeksForGeeks but specifically geared towards computer science students who struggle to grasp common theory.
 
 ## Key Features
 - **Major Categories**: Fundamentals of programming, data structures, algorithms, and syntax for various languages, etc.
