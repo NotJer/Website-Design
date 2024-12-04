@@ -1,6 +1,18 @@
-# Educational Seattle University geared towards Computer Science 
+# Educational Seattle University - Computer Science Website
 
-The website that we decided to create will be an educational one containing other helpful website links and articles for computer science classes. The idea is similar in nature to GeeksForGeeks but geared towards computer science students who struggle to grasp common theory. 
-	Included in this website we will have major categories like fundamentals of programming, Data structure, AI, syntax for various languages, etc. From those categories, we will have a YouTube-like structure to show articles and videos from other trusted creators. Finally, ideally, we would have a few code runners of sorts so users can test what they have learned quickly through our website. Ideally, the website would contain both a place where you can learn about a topic, and also a learning part where users can practice and get tested on the knowledge that they just learned. 
-	Our website will be educationally directed and tailored towards a specific user-based, computer science. There are other educational websites available that have computer science as a topic but do not specifically focus on computer science. Students in computer science who struggle with many of the major topics will see this website as a very important tool to further their education. 
-Overall we are trying to solve the problem of people searching YouTube for lessons about computer science. The problem YouTube has is the ease of posting videos without any reference or background in the topic. This allows anyone, even someone with no educational background to be put in a teaching position possibly teaching fake/false information. With our website, the content will be regulated more with only trusted sources allowed to link their page/post an article.
+The website we decided to create is an educational platform containing helpful links and articles for computer science classes. The idea is similar to GeeksForGeeks but specifically geared towards computer science students who struggle to grasp common theory.
+
+## Key Features
+- **Major Categories**: Fundamentals of programming, data structures, algorithms, and syntax for various languages, etc.
+- **Content Structure**: A YouTube-like structure to display articles and videos from trusted creators.
+- **Interactive Learning**: Code runners for users to test what they have learned quickly through our website.
+- **Dual Learning Approach**: Sections for learning about a topic and practicing/testing knowledge.
+
+## Target Audience
+Our website is educationally directed and tailored towards computer science students. While other educational websites cover computer science as a topic, they do not specifically focus on it. Students struggling with major topics in computer science will find this website a valuable tool to further their education.
+
+## Problem and Solution
+We aim to solve the problem of students searching YouTube for computer science lessons, where the ease of posting videos can lead to unverified and potentially false information. Our website will regulate content more strictly, allowing only trusted sources to link their pages or post articles.
+
+## Conclusion
+By providing a focused, reliable, and interactive learning platform, we hope to support computer science students in their educational journey.
